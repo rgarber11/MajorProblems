@@ -1,0 +1,43 @@
+\documentclass{majorproblem}
+\usepackage{newtx}
+\usepackage{blindtext}
+\usepackage{import}
+\addprimarybib{inchapter.bib}
+\addfurtherreadingbib{furtherreading.bib}
+\begin{document}
+\setcounter{page}{576}
+\setcounter{chapter}{14}
+\amhchapter{Lorem, Lorem, and Lorem Ipsum Dolor}
+\begin{itsec}
+    \noindent \blindtext\par
+    \blindtext
+\end{itsec}
+\section*{Documents}
+\blindtext \par
+\blindtext \par
+\blindtext
+\subsection{Ut enim ad minim veniam}\seccite{sarsour:speech}
+\blindtext \par
+\blindtext
+\blindtext
+\subimport{sections}{document.tex}
+
+
+\section*{Essays}
+\blindtext\par
+\subsection*{Duis aute irure dolor\\\textnormal{\MakeUppercase{Richard Hanania}}}\seccite{Hanania2023-xu}
+\blindtext \par
+\blindtext \par
+\blindtext \par
+\blindtext \par
+\blindtext \par
+\blindtext \par
+\blindtext \par
+\blindtext \par
+\blindtext \par
+\blindtext \par
+\subimport{sections}{essay.tex}
+\section*{Further Reading}
+\printfurtherreadingbib
+
+\end{document}
