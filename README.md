@@ -1,4 +1,5 @@
 # Major Problems Class
+![image](https://github.com/rgarber11/MajorProblems/assets/9834847/99484a76-0059-4972-9433-f2059c1cd285)
 
 Class designed to make a chapter that looks similar to _Major Problems in American History Since 1945_ by Natasha Zaretsky, Mark Lawrence, Robert Griffith and Paula Baker.
 
